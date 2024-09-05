@@ -1,0 +1,32 @@
+﻿@page
+@model MIST353FrontEnd.Pages.TacoModel
+@{
+}
+<h1> Taco </h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM77N1n8NGKCyLu9kBl7t5lAbwq6l-fPrs1g&s" ID="tacopic" style.display = "none" />
+
+<button onclick="hidethetaco()">Hide the Taco</button>
+<button onclick="showthetaco()">Show the Taco</button>
+
+<h2 style="color:salmon">
+    Stores Near You</h2>
+
+
+<ahref "https://www.tacobell.com/"><h3> Taco Bell </h3></ahref>
+
+
+
+<h2> History of Tacos </h2>
+
+this is the taco page <p/>.
+
+this is a <br /> new paragraph
+
+<script>
+    function hidethetaco(){
+        document.getElementById("tacopic").style.display = "none";
+    }
+    function showthetaco()
+    document.getElementById("tacopic").style.display = "block";
+        
+</script>
